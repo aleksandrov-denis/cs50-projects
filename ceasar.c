@@ -1,5 +1,3 @@
-# cs50-projects
-//Copied from what I completed of the cs50 course in school.
 
 #include <stdio.h>
 #include <cs50.h>
