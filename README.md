@@ -1,2 +1,2 @@
 # cs50-projects
-Completed assignments from the Harvard cs50 course located on each branch. 
+Full explanation of assignment located at https://docs.cs50.net/problems/fifteen/fifteen.html.
