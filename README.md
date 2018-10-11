@@ -1,2 +1,2 @@
 # cs50-projects
-Go to ceasar.c branch to check out my work!
+Copied from what I completed of the Harvard cs50 course in school.
