@@ -1,2 +1,2 @@
 # cs50-projects
-Copied from what I completed of the Harvard cs50 course in school.
+Full explanation of assignment available at https://docs.cs50.net/2017/ap/problems/credit/credit.html.
