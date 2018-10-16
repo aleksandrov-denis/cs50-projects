@@ -2,13 +2,11 @@
 # Makefile
 #
 # CS50 AP
-# Sort Race
+# Sudoku
 #
 
-race: race.o helpers.c helpers.h
-	clang -ggdb3 -O0 -std=c11 -Wall -Werror -o race race.o helpers.c -lcs50 -lm
-
-all: race
+sudoku: Makefile sudoku.c sudoku.h
+	gcc -ggdb -std=c99 -Wall -Werror -Wno-unused-but-set-variable -o sudoku sudoku.c -lncurses
 
 clean:
-rm -f a.out core race
+rm -f *.o a.out core log.txt sudoku
