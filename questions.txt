@@ -1,0 +1,49 @@
+1. What’s stdint.h?
+
+    A header that declares integer types which are a specified number of bits and defines specific behaviors
+    for those integers.
+
+    2. What’s the point of using uint8_t, uint32_t, int32_t, and uint16_t in a program?
+
+    The data types define the number of bits a variable holds.
+
+    3. How many bytes is a BYTE, a DWORD, a LONG, and a WORD, respectively?
+
+    1 byte, 4 bytes, 4 bytes, 2 bytes.
+
+    4. What (in ASCII, decimal, or hexadecimal) must the first two bytes of any BMP file be? Leading bytes
+    used to identify file formats (with high probability) are generally called "magic numbers."
+
+    0x42 0x4D
+
+    5. What’s the difference between bfSize and biSize?
+
+    bfSize is size defined in info header and biSize is size defined in file header.
+
+    6. What does it mean if biHeight is negative?
+
+    To make sure we start reading from the top left corner of the file.
+
+    7. What field in BITMAPINFOHEADER specifies the BMP’s color depth (i.e., bits per pixel)?
+
+    biClrUsed and biClrImportant
+
+    8. Why might fopen return NULL in lines 24 and 32 of copy.c?
+
+    It might not open correctly.
+
+    9. Why is the third argument to fread always 1 in our code?
+
+    Because we need it to read the file one block, one pixel, at a time.
+
+    10. What value does line 65 of copy.c assign to padding if bi.biWidth is 3?
+
+    padding = 1
+
+    11. What does fseek do?
+
+    Setting a read cursor some amount of digits from the end of a file.
+
+    12. What is SEEK_CUR?
+
+Position from where program should read next.
